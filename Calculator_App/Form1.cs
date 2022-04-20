@@ -22,91 +22,127 @@ namespace Calculator_App
         {
             InitializeComponent();
         }
-
+        
         private void button1_Click(object sender, EventArgs e)
         {
-            Display.Text += "1";
+            Display.Text += "";
+            userInput += "1";
+            Display.Text += "userInput";
         }
 
         private void Btn2_Click(object sender, EventArgs e)
         {
-            Display.Text += "2";
+            Display.Text += "";
+            userInput += "2";
+            Display.Text += "userInput";
         }
 
         private void Btn3_Click(object sender, EventArgs e)
         {
-            Display.Text += "3";
+            Display.Text += "";
+            userInput += "3";
+            Display.Text += "userInput";
         }
 
         private void Btn4_Click(object sender, EventArgs e)
         {
-            Display.Text += "4";
+            Display.Text += "";
+            userInput += "4";
+            Display.Text += "userInput";
         }
 
         private void Btn5_Click(object sender, EventArgs e)
         {
-            Display.Text += "5";
+            Display.Text += "";
+            userInput += "5";
+            Display.Text += "userInput";
         }
 
         private void Btn6_Click(object sender, EventArgs e)
         {
-            Display.Text += "6";
+            Display.Text += "";
+            userInput += "6";
+            Display.Text += "userInput";
         }
 
         private void Btn7_Click(object sender, EventArgs e)
         {
-            Display.Text += "7";
+            Display.Text += "";
+            userInput += "7";
+            Display.Text += "userInput";
         }
 
         private void Btn8_Click(object sender, EventArgs e)
         {
-            Display.Text += "8";
+            Display.Text += "";
+            userInput += "8";
+            Display.Text += "userInput";
         }
 
         private void Btn9_Click(object sender, EventArgs e)
         {
-            Display.Text += "9";
+            Display.Text += "";
+            userInput += "9";
+            Display.Text += "userInput";
         }
 
         private void ZeroBtn_Click(object sender, EventArgs e)
         {
-            Display.Text += "0";
+            Display.Text += "";
+            userInput += "0";
+            Display.Text += "userInput";
         }
 
         private void DecimalBtn_Click(object sender, EventArgs e)
         {
-            function = '.';
+           
+            Display.Text += ".";
         }
 
         private void EqualBtn_Click(object sender, EventArgs e)
         {
             function = '=';
+            first = userInput;
+            userInput = "";
         }
 
         private void Add_Click(object sender, EventArgs e)
         {
             function = '+';
+            first = userInput;
+            userInput = "";
 
         }
 
         private void Subtract_Click(object sender, EventArgs e)
         {
             function = '-';
+            first = userInput;
+            userInput = "";
         }
 
         private void Multiply_Click(object sender, EventArgs e)
         {
             function = '*';
+            first = userInput;
+            userInput = "";
         }
 
         private void Divide_Click(object sender, EventArgs e)
         {
             function = '/';
+            first = userInput;
+            userInput = "";
         }
 
         private void ClearBtn_Click(object sender, EventArgs e)
         {
             function = 'C';
+            first = "";
+            second = "";
+            userInput = "";
+            result = 0.0;
+            Display.Text = "";
         }
     }
 }
