@@ -24,10 +24,17 @@ namespace Calculator_App
         private void Btn_Click(object sender, EventArgs e)
         {
             if( (Display.Text == "0") ||(operation_pressed))
-                 Display.Clear();
-
+                 Display.Text="";
+            operation_pressed = false;
             Button btn = (Button)sender;
+            if (btn.Text == ".")
+            {
+                if(!Display.Text.Contains("."))
+                    Display.Text= Display.Text + btn.Text;
+            }
+            else
             Display.Text = Display.Text + btn.Text;
+
         }
 
         private void AllClearBtn_Click(object sender, EventArgs e)
@@ -38,14 +45,30 @@ namespace Calculator_App
         private void operator_click(object sender, EventArgs e)
         {
             Button btn = (Button)sender;
-            operation = btn.Text;
-            result = Double.Parse(Display.Text);
-            operation_pressed = true;
+            if (result != 0)
+            {
+                EqualBtn.PerformClick();
+                operation_pressed=true;
+                operation=btn.Text;
+                equation.Text = result + "" + operation;
+
+            }
+            else
+            {
+                operation = btn.Text;
+                result = Double.Parse(Display.Text);
+                operation_pressed = true;
+                equation.Text = result + "" + operation;
+
+            }
+            
           
         }
 
         private void EqualBtn_Click(object sender, EventArgs e)
         {
+            
+            equation.Text = "";
             switch (operation)
             {
                 case "+":
@@ -60,10 +83,17 @@ namespace Calculator_App
                 case "/":
                     Display.Text = (result / Double.Parse(Display.Text)).ToString();
                     break;
-                    default:
+                default:
                     break;
             }
-            operation_pressed=false;
+           result=Int32.Parse(Display.Text);
+            operation = "";
+        }
+
+        private void ButtonClear_Click(object sender, EventArgs e)
+        {
+            Display.Text="";
+            result = 0;
         }
     }
 }
