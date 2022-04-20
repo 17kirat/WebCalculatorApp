@@ -86,7 +86,7 @@ namespace Calculator_App
                 default:
                     break;
             }
-           result=Int32.Parse(Display.Text);
+           result=Double.Parse(Display.Text);
             operation = "";
         }
 
@@ -94,6 +94,53 @@ namespace Calculator_App
         {
             Display.Text="";
             result = 0;
+            equation.Text = "";
+        }
+
+        private void Calculator_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            EqualBtn.Focus();
+            
+            switch (e.KeyChar.ToString())
+            {
+                case "0":
+                    ZeroBtn.PerformClick();break;
+                case "1":
+                    Btn1.PerformClick(); break;
+                case "2":
+                    Btn2.PerformClick(); break;
+                case "3":
+                    Btn3.PerformClick(); break;
+                case "4":
+                    Btn4.PerformClick(); break;
+                case "5":
+                    Btn5.PerformClick(); break;
+                case "6":
+                    Btn6.PerformClick(); break;
+                case "7":
+                    Btn7.PerformClick(); break;
+                case "8":
+                    Btn8.PerformClick(); break;
+                case "9":
+                    Btn9.PerformClick(); break;
+                case "+":
+                    Add.PerformClick(); break;
+                case "-":
+                    Subtract.PerformClick(); break;
+                case "*":
+                    Multiply.PerformClick(); break;
+                case "/":
+                    Divide.PerformClick(); break;
+                case "=":
+                    EqualBtn.PerformClick(); break;
+                case "Enter":
+                    EqualBtn.PerformClick(); break;
+                default:
+                    break;
+
+
+
+            }
         }
     }
 }
