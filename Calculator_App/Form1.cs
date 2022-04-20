@@ -10,139 +10,60 @@ using System.Windows.Forms;
 
 namespace Calculator_App
 {
-    public partial class Form1 : Form
+    public partial class Calculator : Form
     {
-        string first = "";
-        string second = "";
-        char function;
-        double result = 0.0;
-        string userInput = "";
-          
-        public Form1()
+        Double result = 0;
+        String operation = "";
+        bool operation_pressed = false;
+
+        public Calculator()
         {
             InitializeComponent();
         }
-        
-        private void button1_Click(object sender, EventArgs e)
+
+        private void Btn_Click(object sender, EventArgs e)
         {
-            Display.Text += "";
-            userInput += "1";
-            Display.Text += userInput;
+            if( (Display.Text == "0") ||(operation_pressed))
+                 Display.Clear();
+
+            Button btn = (Button)sender;
+            Display.Text = Display.Text + btn.Text;
         }
 
-        private void Btn2_Click(object sender, EventArgs e)
+        private void AllClearBtn_Click(object sender, EventArgs e)
         {
-            Display.Text += "";
-            userInput += "2";
-            Display.Text += userInput;
+            Display.Text = "0";
         }
 
-        private void Btn3_Click(object sender, EventArgs e)
+        private void operator_click(object sender, EventArgs e)
         {
-            Display.Text += "";
-            userInput += "3";
-            Display.Text += userInput;
-        }
-
-        private void Btn4_Click(object sender, EventArgs e)
-        {
-            Display.Text += "";
-            userInput += "4";
-            Display.Text += userInput;
-        }
-
-        private void Btn5_Click(object sender, EventArgs e)
-        {
-            Display.Text += "";
-            userInput += "5";
-            Display.Text += userInput;
-        }
-
-        private void Btn6_Click(object sender, EventArgs e)
-        {
-            Display.Text += "";
-            userInput += "6";
-            Display.Text += userInput;
-        }
-
-        private void Btn7_Click(object sender, EventArgs e)
-        {
-            Display.Text += "";
-            userInput += "7";
-            Display.Text += userInput;
-        }
-
-        private void Btn8_Click(object sender, EventArgs e)
-        {
-            Display.Text += "";
-            userInput += "8";
-            Display.Text += userInput;
-        }
-
-        private void Btn9_Click(object sender, EventArgs e)
-        {
-            Display.Text += "";
-            userInput += "9";
-            Display.Text += userInput;
-        }
-
-        private void ZeroBtn_Click(object sender, EventArgs e)
-        {
-            Display.Text += "";
-            userInput += "0";
-            Display.Text += userInput;
-        }
-
-        private void DecimalBtn_Click(object sender, EventArgs e)
-        {
-           
-            Display.Text += ".";
+            Button btn = (Button)sender;
+            operation = btn.Text;
+            result = Double.Parse(Display.Text);
+            operation_pressed = true;
+          
         }
 
         private void EqualBtn_Click(object sender, EventArgs e)
         {
-            function = '=';
-            first = userInput;
-            userInput = "";
-        }
-
-        private void Add_Click(object sender, EventArgs e)
-        {
-            function = '+';
-            first = userInput;
-            userInput = "";
-
-        }
-
-        private void Subtract_Click(object sender, EventArgs e)
-        {
-            function = '-';
-            first = userInput;
-            userInput = "";
-        }
-
-        private void Multiply_Click(object sender, EventArgs e)
-        {
-            function = '*';
-            first = userInput;
-            userInput = "";
-        }
-
-        private void Divide_Click(object sender, EventArgs e)
-        {
-            function = '/';
-            first = userInput;
-            userInput = "";
-        }
-
-        private void ClearBtn_Click(object sender, EventArgs e)
-        {
-            
-            first = "";
-            second = "";
-            userInput = "";
-            result = 0.0;
-            Display.Text = "";
+            switch (operation)
+            {
+                case "+":
+                    Display.Text = (result + Double.Parse(Display.Text)).ToString();
+                        break;
+                case "-":
+                    Display.Text = (result - Double.Parse(Display.Text)).ToString();
+                    break;
+                case "*":
+                    Display.Text = (result * Double.Parse(Display.Text)).ToString();
+                    break;
+                case "/":
+                    Display.Text = (result / Double.Parse(Display.Text)).ToString();
+                    break;
+                    default:
+                    break;
+            }
+            operation_pressed=false;
         }
     }
 }
