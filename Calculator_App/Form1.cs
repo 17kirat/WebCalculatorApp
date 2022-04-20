@@ -27,70 +27,70 @@ namespace Calculator_App
         {
             Display.Text += "";
             userInput += "1";
-            Display.Text += "userInput";
+            Display.Text += userInput;
         }
 
         private void Btn2_Click(object sender, EventArgs e)
         {
             Display.Text += "";
             userInput += "2";
-            Display.Text += "userInput";
+            Display.Text += userInput;
         }
 
         private void Btn3_Click(object sender, EventArgs e)
         {
             Display.Text += "";
             userInput += "3";
-            Display.Text += "userInput";
+            Display.Text += userInput;
         }
 
         private void Btn4_Click(object sender, EventArgs e)
         {
             Display.Text += "";
             userInput += "4";
-            Display.Text += "userInput";
+            Display.Text += userInput;
         }
 
         private void Btn5_Click(object sender, EventArgs e)
         {
             Display.Text += "";
             userInput += "5";
-            Display.Text += "userInput";
+            Display.Text += userInput;
         }
 
         private void Btn6_Click(object sender, EventArgs e)
         {
             Display.Text += "";
             userInput += "6";
-            Display.Text += "userInput";
+            Display.Text += userInput;
         }
 
         private void Btn7_Click(object sender, EventArgs e)
         {
             Display.Text += "";
             userInput += "7";
-            Display.Text += "userInput";
+            Display.Text += userInput;
         }
 
         private void Btn8_Click(object sender, EventArgs e)
         {
             Display.Text += "";
             userInput += "8";
-            Display.Text += "userInput";
+            Display.Text += userInput;
         }
 
         private void Btn9_Click(object sender, EventArgs e)
         {
             Display.Text += "";
             userInput += "9";
-            Display.Text += "userInput";
+            Display.Text += userInput;
         }
 
         private void ZeroBtn_Click(object sender, EventArgs e)
         {
             Display.Text += "";
             userInput += "0";
-            Display.Text += "userInput";
+            Display.Text += userInput;
         }
 
         private void DecimalBtn_Click(object sender, EventArgs e)
@@ -137,7 +137,7 @@ namespace Calculator_App
 
         private void ClearBtn_Click(object sender, EventArgs e)
         {
-            function = 'C';
+            
             first = "";
             second = "";
             userInput = "";
