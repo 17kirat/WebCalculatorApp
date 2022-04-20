@@ -55,7 +55,7 @@
             this.DecimalBtn.BackColor = System.Drawing.Color.Maroon;
             this.DecimalBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DecimalBtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.DecimalBtn.Location = new System.Drawing.Point(197, 263);
+            this.DecimalBtn.Location = new System.Drawing.Point(92, 201);
             this.DecimalBtn.Name = "DecimalBtn";
             this.DecimalBtn.Size = new System.Drawing.Size(45, 45);
             this.DecimalBtn.TabIndex = 0;
@@ -69,7 +69,7 @@
             this.Display.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Display.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Display.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Display.Location = new System.Drawing.Point(108, 67);
+            this.Display.Location = new System.Drawing.Point(3, 5);
             this.Display.Name = "Display";
             this.Display.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.Display.Size = new System.Drawing.Size(215, 65);
@@ -81,7 +81,7 @@
             this.AllClearBtn.BackColor = System.Drawing.Color.Black;
             this.AllClearBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AllClearBtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.AllClearBtn.Location = new System.Drawing.Point(278, 134);
+            this.AllClearBtn.Location = new System.Drawing.Point(173, 72);
             this.AllClearBtn.Name = "AllClearBtn";
             this.AllClearBtn.Size = new System.Drawing.Size(45, 45);
             this.AllClearBtn.TabIndex = 3;
@@ -94,7 +94,7 @@
             this.Btn9.BackColor = System.Drawing.Color.Maroon;
             this.Btn9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btn9.Location = new System.Drawing.Point(193, 134);
+            this.Btn9.Location = new System.Drawing.Point(88, 72);
             this.Btn9.Name = "Btn9";
             this.Btn9.Size = new System.Drawing.Size(45, 45);
             this.Btn9.TabIndex = 4;
@@ -107,7 +107,7 @@
             this.Btn8.BackColor = System.Drawing.Color.Maroon;
             this.Btn8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btn8.Location = new System.Drawing.Point(150, 134);
+            this.Btn8.Location = new System.Drawing.Point(45, 72);
             this.Btn8.Name = "Btn8";
             this.Btn8.Size = new System.Drawing.Size(45, 45);
             this.Btn8.TabIndex = 5;
@@ -120,7 +120,7 @@
             this.Divide.BackColor = System.Drawing.Color.Maroon;
             this.Divide.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Divide.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Divide.Location = new System.Drawing.Point(236, 135);
+            this.Divide.Location = new System.Drawing.Point(131, 73);
             this.Divide.Name = "Divide";
             this.Divide.Size = new System.Drawing.Size(45, 45);
             this.Divide.TabIndex = 6;
@@ -133,7 +133,7 @@
             this.Multiply.BackColor = System.Drawing.Color.Maroon;
             this.Multiply.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Multiply.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Multiply.Location = new System.Drawing.Point(237, 176);
+            this.Multiply.Location = new System.Drawing.Point(132, 114);
             this.Multiply.Name = "Multiply";
             this.Multiply.Size = new System.Drawing.Size(45, 45);
             this.Multiply.TabIndex = 7;
@@ -146,7 +146,7 @@
             this.Subtract.BackColor = System.Drawing.Color.Maroon;
             this.Subtract.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Subtract.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Subtract.Location = new System.Drawing.Point(238, 219);
+            this.Subtract.Location = new System.Drawing.Point(133, 157);
             this.Subtract.Name = "Subtract";
             this.Subtract.Size = new System.Drawing.Size(45, 45);
             this.Subtract.TabIndex = 8;
@@ -159,7 +159,7 @@
             this.Add.BackColor = System.Drawing.Color.Maroon;
             this.Add.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Add.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Add.Location = new System.Drawing.Point(240, 263);
+            this.Add.Location = new System.Drawing.Point(135, 201);
             this.Add.Name = "Add";
             this.Add.Size = new System.Drawing.Size(45, 45);
             this.Add.TabIndex = 9;
@@ -172,7 +172,7 @@
             this.Btn7.BackColor = System.Drawing.Color.Maroon;
             this.Btn7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btn7.Location = new System.Drawing.Point(106, 134);
+            this.Btn7.Location = new System.Drawing.Point(1, 72);
             this.Btn7.Name = "Btn7";
             this.Btn7.Size = new System.Drawing.Size(45, 45);
             this.Btn7.TabIndex = 10;
@@ -185,7 +185,7 @@
             this.Btn6.BackColor = System.Drawing.Color.Maroon;
             this.Btn6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btn6.Location = new System.Drawing.Point(194, 175);
+            this.Btn6.Location = new System.Drawing.Point(89, 113);
             this.Btn6.Name = "Btn6";
             this.Btn6.Size = new System.Drawing.Size(45, 45);
             this.Btn6.TabIndex = 11;
@@ -198,7 +198,7 @@
             this.Btn5.BackColor = System.Drawing.Color.Maroon;
             this.Btn5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btn5.Location = new System.Drawing.Point(150, 175);
+            this.Btn5.Location = new System.Drawing.Point(45, 113);
             this.Btn5.Name = "Btn5";
             this.Btn5.Size = new System.Drawing.Size(45, 45);
             this.Btn5.TabIndex = 12;
@@ -211,7 +211,7 @@
             this.Btn4.BackColor = System.Drawing.Color.Maroon;
             this.Btn4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btn4.Location = new System.Drawing.Point(106, 175);
+            this.Btn4.Location = new System.Drawing.Point(1, 113);
             this.Btn4.Name = "Btn4";
             this.Btn4.Size = new System.Drawing.Size(45, 45);
             this.Btn4.TabIndex = 13;
@@ -224,7 +224,7 @@
             this.Btn3.BackColor = System.Drawing.Color.Maroon;
             this.Btn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btn3.Location = new System.Drawing.Point(193, 219);
+            this.Btn3.Location = new System.Drawing.Point(88, 157);
             this.Btn3.Name = "Btn3";
             this.Btn3.Size = new System.Drawing.Size(45, 45);
             this.Btn3.TabIndex = 14;
@@ -237,7 +237,7 @@
             this.Btn2.BackColor = System.Drawing.Color.Maroon;
             this.Btn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btn2.Location = new System.Drawing.Point(149, 219);
+            this.Btn2.Location = new System.Drawing.Point(44, 157);
             this.Btn2.Name = "Btn2";
             this.Btn2.Size = new System.Drawing.Size(45, 45);
             this.Btn2.TabIndex = 15;
@@ -250,7 +250,7 @@
             this.Btn1.BackColor = System.Drawing.Color.Maroon;
             this.Btn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btn1.Location = new System.Drawing.Point(106, 219);
+            this.Btn1.Location = new System.Drawing.Point(1, 157);
             this.Btn1.Name = "Btn1";
             this.Btn1.Size = new System.Drawing.Size(45, 45);
             this.Btn1.TabIndex = 16;
@@ -263,7 +263,7 @@
             this.ZeroBtn.BackColor = System.Drawing.Color.Maroon;
             this.ZeroBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ZeroBtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ZeroBtn.Location = new System.Drawing.Point(105, 263);
+            this.ZeroBtn.Location = new System.Drawing.Point(0, 201);
             this.ZeroBtn.Name = "ZeroBtn";
             this.ZeroBtn.Size = new System.Drawing.Size(93, 45);
             this.ZeroBtn.TabIndex = 17;
@@ -276,7 +276,7 @@
             this.EqualBtn.BackColor = System.Drawing.Color.Black;
             this.EqualBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EqualBtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.EqualBtn.Location = new System.Drawing.Point(280, 219);
+            this.EqualBtn.Location = new System.Drawing.Point(175, 157);
             this.EqualBtn.Name = "EqualBtn";
             this.EqualBtn.Size = new System.Drawing.Size(45, 89);
             this.EqualBtn.TabIndex = 18;
@@ -289,7 +289,7 @@
             this.ButtonClear.BackColor = System.Drawing.Color.Black;
             this.ButtonClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonClear.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ButtonClear.Location = new System.Drawing.Point(279, 176);
+            this.ButtonClear.Location = new System.Drawing.Point(174, 114);
             this.ButtonClear.Name = "ButtonClear";
             this.ButtonClear.Size = new System.Drawing.Size(45, 45);
             this.ButtonClear.TabIndex = 19;
@@ -301,7 +301,7 @@
             // 
             this.equation.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.equation.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.equation.Location = new System.Drawing.Point(109, 69);
+            this.equation.Location = new System.Drawing.Point(4, 7);
             this.equation.Name = "equation";
             this.equation.Size = new System.Drawing.Size(40, 32);
             this.equation.TabIndex = 20;
@@ -311,7 +311,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(411, 347);
+            this.ClientSize = new System.Drawing.Size(219, 239);
             this.Controls.Add(this.equation);
             this.Controls.Add(this.ButtonClear);
             this.Controls.Add(this.EqualBtn);
@@ -332,8 +332,11 @@
             this.Controls.Add(this.AllClearBtn);
             this.Controls.Add(this.Display);
             this.Controls.Add(this.DecimalBtn);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.KeyPreview = true;
+            this.MaximumSize = new System.Drawing.Size(235, 278);
+            this.MinimumSize = new System.Drawing.Size(235, 278);
             this.Name = "Calculator";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
